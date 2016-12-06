@@ -50,6 +50,8 @@ public:
 
    float shiftedPx_UnclusteredEnDown() const{return m_shiftedPx_UnclusteredEnDown;}
 
+   float shiftedPx_MuonEnDown() const{return m_shiftedPx_MuonEnDown;}
+
    float shiftedPx_UnclusteredEnUp() const{return m_shiftedPx_UnclusteredEnUp;}
 
    float shiftedPx_ElectronEnUp() const{return m_shiftedPx_ElectronEnUp;}
@@ -60,7 +62,7 @@ public:
 
    float shiftedPx_TauEnDown() const{return m_shiftedPx_TauEnDown;}
    
-   float shiftedPx_MuonEnDown() const{return m_shiftedPx_MuonEnDown;}
+   float shiftedPx_MuonEnUp() const{return m_shiftedPx_MuonEnUp;}
    
    float shiftedPy_JetEnUp() const{return m_shiftedPy_JetEnUp;}
    
